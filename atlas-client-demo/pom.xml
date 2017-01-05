@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.atlas.client.demo</groupId>
+  <artifactId>atlas-client-demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Apache Atlas Java Client Demo</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.atlas</groupId>
+  		<artifactId>atlas-client</artifactId>
+  		<version>0.8-incubating-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>
