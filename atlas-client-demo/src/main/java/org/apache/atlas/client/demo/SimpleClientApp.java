@@ -14,7 +14,7 @@ import org.apache.atlas.typesystem.Referenceable;
 
 public class SimpleClientApp implements Runnable {
 
-    private static final String[] ATLAS_URLS = new String[] { "http://localhost:21000" };
+    private static final String[] ATLAS_URLS = new String[] { "http://localhost:21002" };
 
     private static final String ATLAS_USERNAME = "admin";
 

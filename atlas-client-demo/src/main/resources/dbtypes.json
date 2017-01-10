@@ -7,7 +7,6 @@
 		"typeDescription": "",
 		"hierarchicalMetaTypeName": "org.apache.atlas.typesystem.types.ClassType",
 		"superTypes": [
-			"Referenceable",
 			"DataSet"
 		],
 		"attributeDefinitions": [{
@@ -17,7 +16,7 @@
 			"isComposite": true,
 			"isUnique": false,
 			"isIndexable": true,
-			"reverseAttributeName": null
+			"reverseAttributeName": "table"
 		}]
 	}, {
     "typeName": "DbColumn",
@@ -31,7 +30,7 @@
       "name": "table",
       "dataTypeName": "DbTable",
       "multiplicity": "optional",
-      "isComposite": true,
+      "isComposite": false,
       "isUnique": false,
       "isIndexable": true,
       "reverseAttributeName": "columns"
